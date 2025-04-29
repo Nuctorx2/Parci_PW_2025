@@ -18,6 +18,12 @@ spring:
       hibernate:
         format_sql: true
 
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html # Ruta para acceder a Swagger UI
+  api-docs:
+    path: /v3/api-docs # Ruta para la especificación OpenAPI JSON
+
 logging:
   pattern:
     dateformat: hh:mm
